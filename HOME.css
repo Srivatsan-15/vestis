@@ -1,0 +1,275 @@
+.LOGIN-BOX{
+    background-color: black;
+    height: 330px;
+
+    margin-left:38% ;
+    margin-top: 7%;
+    width: 400px;
+    color: white;
+    padding: 20px;
+    opacity: 0.8;
+
+
+}
+.LOGIN-BOX input{
+    width: 90%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+.LOGIN-BOX button{
+    padding: 10px 15px;
+    margin-left: 40%;
+}
+.header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.NAV-BAR{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.NAV-LINKS{
+    display: flex;
+}
+a.NAV-LINK:link,a.NAV-LINK:visited{
+    padding: 10px 25px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+
+
+a.NAV-LINK:hover,a.NAV-LINK:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+
+.navbar-toggle{
+    display: none;
+}
+/*SIDE NAVBAR*/
+.SIDE-NAVBAR{
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    padding: 20px;
+    left: -60%;
+    color: white;
+    transition: 2s;
+}
+.SIDE-NAV-LINK{
+    margin-bottom:30px;
+
+}
+.SIDE-NAV-LINKS  a{
+    color: white;
+    text-decoration: none;
+}
+
+.SIDE-NAV-LINKS  a:hover{
+    color:black;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+
+
+footer{
+    margin-top: 10%;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative  ;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+
+.FORM{
+    opacity: 0.8;
+    margin-left: 33%;
+    border-radius: 20px;
+    margin-top: 4%;
+    background-color: black;
+    height: 500px;
+    width: 35%;
+    padding: 15px;
+    color: white;
+    
+}
+.FORM-ELEMENTS{
+    opacity: 1;
+    margin-top: 10px;
+    padding: 25px;
+}
+.INPUT{
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 80%;
+    border: none;
+ 
+ 
+    border-radius: 30px;
+}
+.INPUT2{
+    padding: 10px 25px;
+    background-color: white;
+    width: 80%;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.ABOUT{
+    max-width: 500px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    margin-top: 7%;
+    margin-left: 33%;
+    border-radius: 15px;
+    
+}
+.ABOUT-TEXT{
+    opacity: 1;
+}
+button{
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+.submit{
+    text-align: center;
+}
+
+.HOME-TEXT{
+    margin-top: 15%;
+    margin-left: 25%;
+    color: white;   
+}
+a.SHOP:link,a.SHOP:visited{
+    padding: 10px 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 10px;
+
+}
+a.SHOP:hover,a.SHOP:active{
+    background-color: black;
+    color: white;
+}
+.PRODUCT-SECTION{
+    margin-top: 20px;
+}
+.PRODUCT-SEARCH{
+    width: 80%;
+    border: 2px solid black;
+    border-radius:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.PRODUCT-SEARCH input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.PRODUCT-SEARCH input:focus{
+    outline: none;
+}
+.PRODUCT{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.PRODUCT-BOX{
+    text-align: center;
+    flex-basis: 20%;
+}
+.PRODUCT-BOX img{
+    border-radius: 10px;
+}
+.LATEST{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .navbar-toggle{
+        display: block;
+    }
+    .NAV-LINKS{
+        display: none;
+    }
+    .ABOUT{
+        max-width: 500px;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        margin-top: 13%;
+        margin-left: 10%;
+        border-radius: 15px;
+        margin-right: 10%;
+
+        
+    }
+}
